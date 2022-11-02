@@ -13,4 +13,6 @@ enemy_fire = function()
 	{
 	instance_create_layer(x, y + sprite_height/3, "tiro", obj_tiro_inimigo02);
 	}
+	
+	alarm [0] = room_speed * random_range(1,3);
 }
