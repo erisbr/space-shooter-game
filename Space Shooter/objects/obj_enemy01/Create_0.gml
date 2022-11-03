@@ -2,6 +2,7 @@
 
 //variaveis
 vspeed = 2;
+pontos = 10;
 
 //iniciando alarmes
 alarm[0] = random_range(1,3) * room_speed;

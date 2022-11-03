@@ -3,6 +3,9 @@
 // Inherit the parent event
 event_inherited();
 
+//variaveis
+pontos = 20;
+
 //variavel de controle da movimentação
 posso_mover = true;
 
