@@ -19,4 +19,10 @@ enemy_fire = function()
 
 }
 
+//destruindo o inimigo se já tiver outro no mesmo lugar
+if(place_meeting(x, y, obj_enemy01))
+{
+	instance_destroy(id, false);
+}
+
 
