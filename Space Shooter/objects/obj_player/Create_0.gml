@@ -3,6 +3,9 @@
 //velocidade do player
 velocidade = 6;
 
+//nivel do tiro
+fire_level = 1;
+
 //metodo de atirar
 atirando = function()
 {
@@ -11,9 +14,15 @@ atirando = function()
 	
 	if(fire)
 	{
-		instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro01);
+		if(fire_level == 1)
+		{
+			instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro01);
+		}
+		else if(fire_level == 2)
+		{
+			instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro02);	
+		}
 	}
-
 }
 
 
