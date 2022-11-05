@@ -1,27 +1,36 @@
 /// @description Iniciando variáveis
 
-//velocidade do player
+//variaveis
 velocidade = 6;
-
-//nivel do tiro
 fire_level = 1;
+fire_time = room_speed/1.5;
+
+//ativando alarme do tiro
+alarm[0] = fire_time;
 
 //metodo de atirar
 atirando = function()
 {
-	var fire;
+	/*var fire;
 	fire = keyboard_check_pressed(vk_space);
 	
-	if(fire)
-	{
+	if(fire)*/
+	
 		if(fire_level == 1)
 		{
 			instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro01);
 		}
 		else if(fire_level == 2)
 		{
-			var fire1 = instance_create_layer(x - 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
-			var fire2 = instance_create_layer(x + 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
+			instance_create_layer(x - 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
+			instance_create_layer(x + 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
+			
 		}
-	}
+		else if(fire_level == 3)
+		{
+			instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro01);
+			instance_create_layer(x - 40, (y - sprite_height/3) + 10, "tiro", obj_tiro01);
+			instance_create_layer(x + 40, (y - sprite_height/3) + 10, "tiro", obj_tiro01);
+		}
+	
 }

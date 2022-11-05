@@ -3,14 +3,14 @@
 //criando inimigos
 if(!instance_exists(obj_enemy01))
 {
-	repeat(5 * level)
+	repeat(7 * level)
 	{
 		create_enemy();
 	}
 }
 
 //reativando o alarme
-alarm[0] = 3 * room_speed;
+alarm[0] = 2 * room_speed;
 
 
 

@@ -14,10 +14,9 @@ y += (down - up) * velocidade;
 x += (right - left) * velocidade;
 
 //mecanica de tiro
-atirando();
+//atirando();
 
-
-if(keyboard_check_pressed(vk_up) && fire_level < 5)
+if(keyboard_check_pressed(vk_up) && fire_level < 3)
 {
 	fire_level++;
 }
@@ -27,6 +26,17 @@ if(keyboard_check_pressed(vk_down) && fire_level > 1)
 	fire_level--;
 }
 
-show_debug_message(fire_level);
+if(keyboard_check_pressed(vk_left) && fire_time > 16)
+{
+	fire_time *= 0.9;
+}
+
+if(keyboard_check_pressed(vk_right))
+{
+	fire_time *= 1.1;
+}
+
+show_debug_message(fire_time);
+
 
 
