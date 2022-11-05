@@ -20,11 +20,8 @@ atirando = function()
 		}
 		else if(fire_level == 2)
 		{
-			instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro02);	
+			var fire1 = instance_create_layer(x - 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
+			var fire2 = instance_create_layer(x + 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
 		}
 	}
 }
-
-
-
-
