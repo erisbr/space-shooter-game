@@ -3,6 +3,7 @@
 //variaveis
 vspeed = 2;
 pontos = 10;
+chance = 20;
 
 //iniciando alarmes
 alarm[0] = random_range(1,3) * room_speed;
@@ -25,4 +26,12 @@ if(place_meeting(x, y, obj_enemy01))
 	instance_destroy(id, false);
 }
 
-
+//metodo para dropar itens
+item_drop = function(chance)
+{
+	var valor = random(100);
+	if(valor <=20)
+	{
+		instance_create_layer(x, y, "tiro", obj_power_up);	
+	}
+}

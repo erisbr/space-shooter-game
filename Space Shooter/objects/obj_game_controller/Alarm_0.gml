@@ -3,7 +3,7 @@
 //criando inimigos
 if(!instance_exists(obj_enemy01))
 {
-	repeat(7 * level)
+	repeat(6 * level)
 	{
 		create_enemy();
 	}

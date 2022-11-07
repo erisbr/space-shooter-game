@@ -5,6 +5,7 @@ event_inherited();
 
 //variaveis
 pontos = 20;
+chance = 30;
 
 //variavel de controle da movimentação
 posso_mover = true;

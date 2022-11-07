@@ -9,7 +9,8 @@ if(instance_exists(obj_game_controller))
 	obj_game_controller.earn_score(pontos);
 }
 
-
+//dropando item ao ser destruido
+item_drop(chance);
 
 
 
