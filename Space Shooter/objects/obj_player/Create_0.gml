@@ -38,16 +38,16 @@ atirando = function()
 //metodo power up
 power_up = function(chance)
 {
-	if(chance > 90 && fire_level < 3)
+	if(chance > 80 && fire_level < 3)
 	{
-		fire_level++;
+		fire_level++;	
 	}
-	else if(chance > 45 && fire_time > 16)
+	else if(chance > 40 && fire_time > 16)
 	{
-		fire_time *= 0.9;
+		fire_time *= 0.9;	
 	}
-	else if(chance < 45 && velocidade < 10)
+	else if(chance < 40 && velocidade < 10)
 	{
-		velocidade ++;
+		velocidade ++;	
 	}
 }
