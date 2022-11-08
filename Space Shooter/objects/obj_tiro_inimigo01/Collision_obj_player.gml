@@ -3,5 +3,5 @@
 
 instance_destroy();
 
-
+obj_player.loosing_life();
 

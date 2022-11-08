@@ -4,6 +4,7 @@
 velocidade = 6;
 fire_level = 1;
 fire_time = room_speed/1.8;
+player_life = 3;
 
 //ativando alarme do tiro
 alarm[0] = fire_time;
@@ -50,4 +51,9 @@ power_up = function(chance)
 	{
 		velocidade ++;	
 	}
+}
+
+loosing_life = function()
+{
+	player_life--;
 }

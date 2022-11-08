@@ -22,7 +22,8 @@ if(shield)
 	escudo.target = id;
 }
 
-
-
-
-
+//se destruindo ao perder todas as vidas
+if(player_life <= 0)
+{
+	instance_destroy();
+}
