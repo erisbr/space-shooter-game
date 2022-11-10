@@ -16,10 +16,12 @@ y += (down - up) * velocidade;
 x += (right - left) * velocidade;
 
 //criação do escudo
-if(shield)
+if(shield && shield_number > 0)
 {
 	var escudo = instance_create_layer(x, y, "shield", obj_escudo);
 	escudo.target = id;
+	
+	shield_number --;
 }
 
 //se destruindo ao perder todas as vidas

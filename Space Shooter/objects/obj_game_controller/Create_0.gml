@@ -7,6 +7,7 @@ alarm[0] = 1.4 * room_speed;
 player_score = 0;
 level = 1;
 next_level = 100;
+gameover = noone;
 
 //sistema de pontuação
 earn_score = function(s)
@@ -28,7 +29,7 @@ create_enemy = function()
 	var enemy, chance;
 
 	largura = irandom_range(30, 1865);
-	altura = irandom_range(-150, -1800);
+	altura = irandom_range(-150, -1800 - (level * 600));
 
 	enemy = obj_enemy01;
 	chance = random_range(0, level);
