@@ -30,6 +30,7 @@
     {"id":{"name":"obj_tiro01","path":"objects/obj_tiro01/obj_tiro01.yy",},"order":1,},
     {"id":{"name":"spr_tiro_inimigo01","path":"sprites/spr_tiro_inimigo01/spr_tiro_inimigo01.yy",},"order":1,},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},"order":3,},
+    {"id":{"name":"obj_shake_screen","path":"objects/obj_shake_screen/obj_shake_screen.yy",},"order":5,},
     {"id":{"name":"obj_enemy02","path":"objects/obj_enemy02/obj_enemy02.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
