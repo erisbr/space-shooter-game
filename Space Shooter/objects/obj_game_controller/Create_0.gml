@@ -29,8 +29,8 @@ create_enemy = function()
 	var largura, altura;
 	var enemy, chance;
 
-	largura = irandom_range(30, 1865);
-	altura = irandom_range(-150, -1800 - (level * 400));
+	largura = irandom_range(80, 1800);
+	altura = irandom_range(-150, -1800 - (level * 600));
 
 	enemy = obj_enemy01;
 	chance = random_range(0, level);

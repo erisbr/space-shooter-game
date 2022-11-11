@@ -40,17 +40,38 @@ atirando = function()
 //metodo power up
 power_up = function(chance)
 {
-	if(chance > 80 && fire_level < 3)
+	if(chance > 80)
 	{
-		fire_level++;	
+		if(fire_level < 3)
+		{
+			fire_level++;
+		}
+		else if(instance_exists(obj_game_controller))
+		{
+			obj_game_controller.earn_score(50);
+		}
 	}
-	else if(chance > 40 && fire_time > 15)
+	else if(chance > 40)
 	{
-		fire_time *= 0.9;	
+		if(fire_time > 15)
+		{
+			fire_time *= 0.9;
+		}
+		else if(instance_exists(obj_game_controller))
+		{
+			obj_game_controller.earn_score(25);
+		}
 	}
-	else if(chance < 40 && velocidade < 12)
+	else if(chance < 40)
 	{
-		velocidade ++;	
+		if(velocidade < 15)
+		{
+			velocidade ++;
+		}
+		else if(instance_exists(obj_game_controller))
+		{
+			obj_game_controller.earn_score(25);
+		}
 	}
 }
 
