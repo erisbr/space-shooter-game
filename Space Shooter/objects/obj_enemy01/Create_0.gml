@@ -30,7 +30,7 @@ if(place_meeting(x, y, obj_enemy01))
 item_drop = function(chance)
 {
 	var valor = random(100);
-	if(valor <=20)
+	if(valor <= chance && y > 50)
 	{
 		instance_create_layer(x, y, "tiro", obj_power_up);	
 	}

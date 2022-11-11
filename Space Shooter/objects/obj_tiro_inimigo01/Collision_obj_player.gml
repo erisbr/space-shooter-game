@@ -5,3 +5,4 @@ instance_destroy();
 
 obj_player.loosing_life();
 
+screen_shake(5);

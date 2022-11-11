@@ -1,4 +1,5 @@
-/// @description Iniciando
+
+randomize();
 
 //iniciando o alarme
 alarm[0] = 1.4 * room_speed;

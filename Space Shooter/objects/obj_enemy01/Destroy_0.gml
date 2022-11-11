@@ -4,7 +4,7 @@
 instance_create_layer(x, y, "inimigos", obj_explosao);
 
 //instanciando o screen shake ao ser destruido
-instance_create_layer(0,0,"inimigos", obj_shake_screen);
+screen_shake(10);
 
 //ganhando pontos ao ser destruido
 if(instance_exists(obj_game_controller))

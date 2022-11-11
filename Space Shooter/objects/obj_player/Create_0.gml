@@ -44,11 +44,11 @@ power_up = function(chance)
 	{
 		fire_level++;	
 	}
-	else if(chance > 40 && fire_time > 16)
+	else if(chance > 40 && fire_time > 15)
 	{
 		fire_time *= 0.9;	
 	}
-	else if(chance < 40 && velocidade < 10)
+	else if(chance < 40 && velocidade < 12)
 	{
 		velocidade ++;	
 	}

@@ -11,6 +11,10 @@ left = keyboard_check(ord("A"));
 
 shield = keyboard_check_pressed(vk_space);
 
+//mantendo o player dentro da tela
+x = clamp(x, 64, 1856);
+y = clamp(y, 64, 1024);
+
 //movimentação do player
 y += (down - up) * velocidade;
 x += (right - left) * velocidade;

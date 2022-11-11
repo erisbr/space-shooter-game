@@ -21,6 +21,7 @@
     {"id":{"name":"spr_enemy01","path":"sprites/spr_enemy01/spr_enemy01.yy",},"order":0,},
     {"id":{"name":"spr_tiro_inimigo02","path":"sprites/spr_tiro_inimigo02/spr_tiro_inimigo02.yy",},"order":3,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":0,},
+    {"id":{"name":"screen_shake","path":"scripts/screen_shake/screen_shake.yy",},"order":0,},
     {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},"order":6,},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"order":4,},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},"order":4,},
