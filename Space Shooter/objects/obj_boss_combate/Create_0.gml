@@ -15,7 +15,7 @@ boss_fire_time = 0;
 boss_xspeed = 4;
 
 boss_life_max = 1000;
-boss_life = boss_life_max;
+boss_life = boss_life_max/2;
 
 //metodo para perder vida
 loosing_life = function()

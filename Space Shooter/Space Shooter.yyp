@@ -19,6 +19,7 @@
     {"id":{"name":"obj_tiro02","path":"objects/obj_tiro02/obj_tiro02.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_minion_fire","path":"objects/obj_minion_fire/obj_minion_fire.yy",},"order":3,},
+    {"id":{"name":"spr_minion","path":"sprites/spr_minion/spr_minion.yy",},"order":2,},
     {"id":{"name":"spr_tiro02","path":"sprites/spr_tiro02/spr_tiro02.yy",},"order":2,},
     {"id":{"name":"obj_explosao","path":"objects/obj_explosao/obj_explosao.yy",},"order":3,},
     {"id":{"name":"spr_enemy01","path":"sprites/spr_enemy01/spr_enemy01.yy",},"order":0,},
