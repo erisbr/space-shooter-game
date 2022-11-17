@@ -6,6 +6,7 @@ fire_level = 1;
 fire_time = room_speed/1.8;
 player_life = 3;
 shield_number = 3;
+my_shield = noone;
 
 //ativando alarme do tiro
 alarm[0] = fire_time;
@@ -77,5 +78,8 @@ power_up = function(chance)
 
 loosing_life = function()
 {
-	player_life--;
+	if(!my_shield)
+	{
+		player_life--;
+	}
 }

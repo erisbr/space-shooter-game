@@ -20,11 +20,12 @@ y += (down - up) * velocidade;
 x += (right - left) * velocidade;
 
 //criação do escudo
-if(shield && shield_number > 0)
+if(shield && shield_number > 0 && !my_shield)
 {
 	var escudo = instance_create_layer(x, y, "shield", obj_escudo);
 	escudo.target = id;
 	
+	my_shield = escudo;
 	shield_number --;
 }
 

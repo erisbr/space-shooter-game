@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message(boss_state);
-
 boss_state_time--;
 
 if(boss_state_time <= 0)
@@ -10,6 +8,16 @@ if(boss_state_time <= 0)
 	boss_state = choose("state 1", "state 2", "state 3");
 	
 	boss_state_time = boss_state_delay;
+}
+
+if(boss_life == boss_life/2)
+{
+	boss_state = "state 4";
+}
+
+if(boss_state != "state 4")
+{
+	sprite_index = spr_boss_combate;
 }
 
 if(boss_state == "state 1")
@@ -63,5 +71,12 @@ else if(boss_state == "state 3")
 		boss_fire_time = boss_fire_delay * 2;
 	}
 }
+else if(boss_state == "state 4")
+{
+	sprite_index = spr_boss_escuro;
+}
 
-
+if(boss_life <=0)
+{
+	instance_destroy();
+}
