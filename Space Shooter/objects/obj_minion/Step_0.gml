@@ -7,3 +7,10 @@ if(minion_life <=0)
 {
 	instance_destroy();
 }
+
+if(scale >= 1.3 || scale <=0.9)
+{
+	aumento_escala *= -1;
+}
+
+scale += aumento_escala;

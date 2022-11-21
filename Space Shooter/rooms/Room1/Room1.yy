@@ -19,7 +19,7 @@
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Sequences","assets":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Boss","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34BAC18A","properties":[],"isDnd":false,"objectId":{"name":"obj_boss_combate","path":"objects/obj_boss_combate/obj_boss_combate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":288.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6254C6F2","properties":[],"isDnd":false,"objectId":{"name":"obj_minion","path":"objects/obj_minion/obj_minion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.33065,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":704.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D1B769C","properties":[],"isDnd":false,"objectId":{"name":"obj_minion","path":"objects/obj_minion/obj_minion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.570854,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":704.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Shield","instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","instances":[
@@ -40,7 +40,7 @@
     {"name":"inst_5933D83A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_C0E8388","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_34BAC18A","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6254C6F2","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4D1B769C","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

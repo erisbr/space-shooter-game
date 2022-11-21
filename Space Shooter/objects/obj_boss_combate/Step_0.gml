@@ -10,7 +10,7 @@ if(boss_state_time <= 0)
 	boss_state_time = boss_state_delay;
 }
 
-if(boss_life == boss_life/2)
+if(boss_life == boss_life_max/2)
 {
 	boss_state = "state 4";
 }
