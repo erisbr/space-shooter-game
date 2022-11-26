@@ -18,3 +18,8 @@ loosing_life = function()
 		minion_life--;
 	}
 }
+
+if(place_meeting(x, y, obj_minion))
+{
+	y -= 60;
+}

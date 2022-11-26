@@ -5,7 +5,7 @@ obj_minion.loosing_life();
 
 instance_destroy();
 
-screen_shake(3);
+screen_shake(10);
 
 
 

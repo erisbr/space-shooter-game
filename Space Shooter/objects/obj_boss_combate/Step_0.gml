@@ -5,14 +5,18 @@ boss_state_time--;
 
 if(boss_state_time <= 0)
 {
-	boss_state = choose("state 1", "state 2", "state 3");
+	if(boss_life > boss_life_max/2)
+	{
+		boss_state = choose("state 1", "state 2", "state 3");
+	}
+	else
+	{
+		boss_state = choose("state 1", "state 2", "state 3", "state 4");
+	}
 	
 	boss_state_time = boss_state_delay;
-}
-
-if(boss_life == boss_life_max/2)
-{
-	boss_state = "state 4";
+	
+	can_create_minion = true;
 }
 
 if(boss_state != "state 4")
@@ -74,6 +78,19 @@ else if(boss_state == "state 3")
 else if(boss_state == "state 4")
 {
 	sprite_index = spr_boss_escuro;
+	
+	if(can_create_minion)
+	{
+		var minion1 = instance_create_layer(128, 672, "inimigos", obj_minion);
+		minion1.image_angle = 90;
+	
+		var minion2 = instance_create_layer(1760, 672, "inimigos", obj_minion);
+		minion2.image_angle = 270;
+		
+		can_create_minion = false;
+	}
+	
+	
 }
 
 if(boss_life <=0)
