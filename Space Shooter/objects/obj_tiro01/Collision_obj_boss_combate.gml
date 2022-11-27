@@ -7,5 +7,5 @@ if(obj_boss_combate.boss_state != "state 4")
 
 	obj_boss_combate.loosing_life();
 
-	screen_shake(7);
+	screen_shake(3);
 }

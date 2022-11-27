@@ -3,9 +3,18 @@
 //criando inimigos
 if(!instance_exists(obj_enemy01))
 {
-	repeat(10 * level)
+	
+	if(level <6)
 	{
-		create_enemy();
+		repeat(10 * level)
+		{
+			create_enemy();
+		}
+	}
+	else if (level == 6 && boss_create)
+	{
+		layer_sequence_create("BossEntrada", 960, 512, sq_boss_entrada);
+		boss_create = false;
 	}
 }
 

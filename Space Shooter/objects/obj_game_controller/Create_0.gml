@@ -9,6 +9,7 @@ player_score = 0;
 level = 1;
 next_level = 100;
 gameover = noone;
+boss_create = true;
 
 //sistema de pontuação
 earn_score = function(s)
