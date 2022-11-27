@@ -6,7 +6,7 @@ alarm[0] = 1.4 * room_speed;
 
 //iniciando variaveis
 player_score = 0;
-level = 6;
+level = 1;
 next_level = 100;
 gameover = noone;
 boss_create = true;
