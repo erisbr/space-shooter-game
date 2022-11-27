@@ -1,3 +1,3 @@
 button_text = "SCORE";
 
-next_room = 2;
+next_room = rm_score;

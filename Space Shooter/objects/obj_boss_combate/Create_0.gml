@@ -13,7 +13,7 @@ boss_fire_time = 0;
 
 boss_xspeed = 4;
 
-boss_life_max = 1;
+boss_life_max = 1000;
 boss_life = boss_life_max;
 
 can_create_minion = true;

@@ -13,5 +13,5 @@ if(!instance_exists(obj_player) && !gameover)
 //reiniciando o jogo
 if(gameover && restart)
 {
-	game_restart();
+	room_goto(0);
 }

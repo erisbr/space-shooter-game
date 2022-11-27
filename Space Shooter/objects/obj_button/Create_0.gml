@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 button_text = "";
-next_room = 1;
+next_room = noone;
 
 
