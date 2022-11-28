@@ -14,6 +14,7 @@ enemy_fire = function()
 	if(y >= 0)
 	{
 		instance_create_layer(x - 3,y + sprite_height /3, "tiro", obj_tiro_inimigo01);
+		audio_play_sound(sfx_enemy_shoot, 1, false);
 	}
 	
 	alarm [0] = room_speed * random_range(1,3);

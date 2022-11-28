@@ -22,18 +22,20 @@ atirando = function()
 		if(fire_level == 1)
 		{
 			instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro01);
+			audio_play_sound(sfx_shoot, 1, false);
 		}
 		else if(fire_level == 2)
 		{
 			instance_create_layer(x - 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
 			instance_create_layer(x + 40, (y - sprite_height/3) + 10, "tiro", obj_tiro02);
-			
+			audio_play_sound(sfx_shoot, 1, false);
 		}
 		else if(fire_level == 3)
 		{
 			instance_create_layer(x, y - sprite_height/3, "tiro", obj_tiro01);
 			instance_create_layer(x - 40, (y - sprite_height/3) + 10, "tiro", obj_tiro01);
 			instance_create_layer(x + 40, (y - sprite_height/3) + 10, "tiro", obj_tiro01);
+			audio_play_sound(sfx_shoot, 1, false);
 		}
 	
 }

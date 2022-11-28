@@ -15,6 +15,8 @@ if(!instance_exists(obj_enemy01))
 	{
 		layer_sequence_create("BossEntrada", 960, 512, sq_boss_entrada);
 		boss_create = false;
+		audio_stop_sound(snd_level1);
+		audio_play_sound(snd_boss_fight, 0, true);
 	}
 }
 
