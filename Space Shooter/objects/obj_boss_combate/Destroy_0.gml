@@ -5,6 +5,10 @@
 layer_sequence_create("BossMorte", obj_boss_combate.x, obj_boss_combate.y, sq_boss_dying);
 
 
+if(instance_exists(obj_game_controller))
+{
+	obj_game_controller.earn_score(pontos);
+}
 
 
 

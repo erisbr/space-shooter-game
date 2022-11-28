@@ -15,5 +15,8 @@ if(instance_exists(obj_game_controller))
 //dropando item ao ser destruido
 item_drop(chance);
 
+//incrementando a variavel que contabiliza a quantidade de vezes que o player mata
+global.kill_number++;
+
 
 

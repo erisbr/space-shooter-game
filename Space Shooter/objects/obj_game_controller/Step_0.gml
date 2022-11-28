@@ -13,5 +13,10 @@ if(!instance_exists(obj_player) && !gameover)
 //reiniciando o jogo
 if(gameover && restart)
 {
-	room_goto(0);
+	room_goto(rm_main_menu);
+}
+
+if(player_score > global.high_score)
+{
+	global.high_score = player_score;
 }

@@ -18,6 +18,8 @@ boss_life = boss_life_max;
 
 can_create_minion = true;
 
+pontos = 1000;
+
 //metodo para perder vida
 loosing_life = function()
 {

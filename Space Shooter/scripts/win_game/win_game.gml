@@ -15,4 +15,6 @@ function destroy_win_game()
 {
 	var elemento = layer_get_all_elements("Player");
 	layer_sequence_destroy(elemento[0]);
+	
+	room_goto(rm_main_menu);
 }
